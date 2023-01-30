@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+.flex {
+	display: flex;
+}
+.fCol {
+	flex-direction: column;
+}
+.fWap {
+	flex-wrap: wrap;
+}
+.acen {
+	align-items: center;
+}
+.jcen {
+	justify-content: center;
+}
+.jbtw {
+	justify-content: space-between;
+}
+.jard {
+	justify-content: space-around;
+}
+.status_bar {
+	height: 25px;
+	width: 100%;
+}
+

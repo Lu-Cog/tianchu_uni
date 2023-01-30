@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/dakaList",
+    "pages/leave/leave",
+    "pages/leave/leaveSq",
+    "pages/leave/leaveInfo",
+    "pages/leave/leaveList",
+    "pages/file/file",
+    "pages/file/fileSc",
+    "pages/linqing/linqing",
+    "pages/linqing/organ",
+    "pages/linqing/organInfo"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {}
+}

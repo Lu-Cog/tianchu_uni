@@ -1,0 +1,128 @@
+.header {
+  width: 100%;
+  height: 408rpx;
+  background: linear-gradient(0deg, rgba(0, 204, 146, 0.65) 0%, #00cc92 100%);
+}
+.header .head {
+  position: relative;
+  padding: 30rpx;
+}
+.header .head image {
+  position: absolute;
+  left: 30rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.header .head text {
+  color: #ffffff;
+  font-size: 36rpx;
+  font-weight: 400;
+}
+.header .head navigator {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 30rpx;
+  color: #ffffff;
+  font-size: 26rpx;
+  font-weight: 700;
+}
+.header .headmain {
+  margin: 22rpx 34rpx;
+}
+.header .headmain image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 32rpx;
+  margin-right: 16rpx;
+}
+.header .headmain .headInfo {
+  padding: 10rpx;
+  color: #fff;
+}
+.header .headmain .headInfo .headTop text {
+  font-size: 36rpx;
+  font-weight: 400;
+  margin-right: 20rpx;
+}
+.header .headmain .headInfo .headTop text:last-child {
+  font-size: 24rpx;
+}
+.header .headmain .headInfo .headBtm {
+  font-size: 28rpx;
+}
+.dakaMain {
+  margin-top: -40rpx;
+  background: #ffffff;
+  border-radius: 32rpx 32rpx 0rpx 0rpx;
+  overflow: hidden;
+  padding: 10rpx 32rpx;
+}
+.dakaMain .title {
+  width: 100%;
+  color: #383838;
+  font-size: 32rpx;
+  font-weight: 700;
+  margin: 20rpx 0;
+}
+.dakaMain .dklist {
+  width: 100%;
+}
+.dakaMain .dklist .dkItem {
+  width: 48%;
+  background: #ebfff9;
+  border-radius: 32rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.dakaMain .dklist .dkItem .dktime {
+  font-size: 28rpx;
+  font-weight: 400;
+  margin-bottom: 30rpx;
+}
+.dakaMain .dklist .dkItem .dkbtm image {
+  width: 36rpx;
+  height: 36rpx;
+}
+.dakaMain .dklist .dkItem .dkbtm text {
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #a6a6a6;
+}
+.dakaMain .dklist .dkItem .dkbtm text:last-child {
+  background: #ffebd6;
+  border: 1px solid #ff8d1a;
+  border-radius: 16rpx;
+  padding: 4rpx 10rpx;
+  color: #ff8d1a;
+  font-size: 24rpx;
+  font-weight: 400;
+}
+.dakaMain .daka {
+  margin-top: 140rpx;
+  width: 400rpx;
+  height: 400rpx;
+  background: rgba(0, 204, 146, 0);
+  border: 1px solid rgba(0, 204, 146, 0.08);
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 12px rgba(0, 204, 146, 0.16);
+}
+.dakaMain .daka .dakan {
+  border-radius: 50%;
+  width: 266rpx;
+  height: 266rpx;
+  background: linear-gradient(0deg, #c4c4c4 0%, #00cc92 0.66%, rgba(0, 204, 146, 0.65) 100%);
+  box-shadow: 1px 2px 6px 1px rgba(0, 204, 146, 0.68);
+}
+.dakaMain .daka .dakan text {
+  color: #ffffff;
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.dakaMain .daka .dakan text:last-child {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 24rpx;
+  font-weight: 400;
+}
+

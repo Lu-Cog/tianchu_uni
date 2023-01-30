@@ -1,0 +1,131 @@
+.popupContent {
+  border-radius: 20rpx 20rpx 0 0;
+  padding: 50rpx 0 80rpx;
+  width: 100%;
+  background-color: #fff;
+}
+.popupContent .typeItem {
+  width: 20%;
+  margin: 0 6.5% 3%;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.popupContent .active {
+  background: #0dce97;
+  border-radius: 8rpx;
+  color: #fff;
+}
+.popupContent .btnS {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 32rpx;
+  background: #0dce97;
+  padding: 10rpx;
+  color: #fff;
+  margin-top: 40rpx;
+}
+.header {
+  width: 100%;
+  box-shadow: 0px 2px 6px rgba(0, 204, 146, 0.1);
+}
+.header .head {
+  position: relative;
+  padding: 30rpx;
+}
+.header .head image {
+  position: absolute;
+  left: 30rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.header .head text {
+  font-size: 36rpx;
+  font-weight: 400;
+}
+.leave {
+  padding: 48rpx 32rpx;
+}
+.leave .leaveitem {
+  margin-bottom: 32rpx;
+}
+.leave .leaveitem > text {
+  color: #383838;
+  font-size: 30rpx;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 10rpx;
+}
+.leave .leaveitem .inputMan {
+  padding: 20rpx 12rpx;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(13, 206, 151, 0.15);
+  border-radius: 16rpx;
+}
+.leave .leaveitem .pickerview {
+  padding: 20rpx 12rpx;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(13, 206, 151, 0.15);
+  border-radius: 16rpx;
+}
+.leave .leaveitem .pickerview image {
+  width: 48rpx;
+  height: 48rpx;
+}
+.leave .leaveitem .uni-date-x--border {
+  padding: 10rpx 0;
+  border: none;
+  box-shadow: 0px 0px 8px rgba(13, 206, 151, 0.15);
+}
+.leave .leaveitem textarea {
+  background: #ffffff;
+  width: 100%;
+  padding: 20rpx;
+  box-shadow: 0px 0px 8px rgba(13, 206, 151, 0.15);
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+.leave .leaveitem .imgList {
+  padding: 24rpx 20rpx;
+  box-shadow: 0px 0px 8px rgba(13, 206, 151, 0.15);
+}
+.leave .leaveitem .imgList image {
+  margin: 4rpx;
+  border-radius: 20rpx;
+  width: 120rpx;
+  height: 120rpx;
+}
+.leave .leaveitem .additem {
+  box-shadow: 0px 0px 8px rgba(13, 206, 151, 0.15);
+  margin-bottom: 30rpx;
+  padding: 16rpx 26rpx;
+}
+.leave .leaveitem .additem > text {
+  color: #383838;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.leave .leaveitem .additem .itemIn image {
+  border-radius: 16rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+.leave .leaveitem .additem .itemIn text {
+  font-size: 28rpx;
+  margin-left: 20rpx;
+}
+.leave .leaveitem .additem image {
+  border-radius: 16rpx;
+  width: 72rpx;
+  height: 72rpx;
+}
+.leave .btn {
+  width: 100%;
+  box-sizing: border-box;
+  background: #0dce97;
+  border-radius: 16px;
+  color: #fff;
+  text-align: center;
+  padding: 20rpx;
+}
+

@@ -1,0 +1,125 @@
+.tab {
+  overflow: hidden;
+  box-shadow: 0 0 8rpx rgba(0, 0, 0, 0.2);
+  border-radius: 10rpx;
+  width: 80%;
+  margin: 30rpx auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tab text {
+  width: 50%;
+  padding: 20rpx;
+  text-align: center;
+}
+.tab .active {
+  background-color: #0dce97;
+  color: #fff;
+}
+.btn {
+  padding: 12rpx 0;
+  text-align: center;
+  width: 90%;
+  background: #0dce97;
+  border-radius: 32rpx;
+  color: #fff;
+  position: absolute;
+  bottom: 50rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.header {
+  width: 100%;
+  box-shadow: 0px 2px 6px rgba(0, 204, 146, 0.1);
+}
+.header .head {
+  position: relative;
+  padding: 30rpx;
+}
+.header .head image {
+  position: absolute;
+  left: 30rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.header .head text {
+  font-size: 36rpx;
+  font-weight: 400;
+}
+.header .head navigator {
+  color: #0dce97;
+  font-size: 26rpx;
+  font-weight: 700;
+}
+.leavelist {
+  padding: 0rpx 32rpx 48rpx;
+}
+.leavelist .no {
+  text-align: center;
+  margin-top: 200rpx;
+  color: #999;
+}
+.leavelist .leavaItem {
+  margin-bottom: 32rpx;
+  padding: 18rpx 22rpx;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 204, 146, 0.1);
+  border-radius: 32rpx;
+}
+.leavelist .leavaItem .itemHead .iheadl {
+  color: #383838;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.leavelist .leavaItem .itemHead .time {
+  color: #a6a6a6;
+  font-size: 24rpx;
+  font-weight: 400;
+}
+.leavelist .leavaItem .itemtype {
+  margin: 22rpx 0;
+}
+.leavelist .leavaItem .itemtype text {
+  color: #a6a6a6;
+  font-size: 30rpx;
+  font-weight: 400;
+  color: #383838;
+}
+.leavelist .leavaItem .itemtype text:last-child {
+  color: #0dce97;
+}
+.leavelist .leavaItem .itemtype .stype {
+  color: #00cc92;
+  font-size: 24rpx;
+  font-weight: 400;
+}
+.leavelist .leavaItem .itemtype .stypes {
+  color: #e33c64;
+  font-size: 24rpx;
+  font-weight: 400;
+}
+.leavelist .leavaItem .iteminfo {
+  margin: 22rpx 0;
+}
+.leavelist .leavaItem .iteminfo text {
+  color: #a6a6a6;
+  font-size: 30rpx;
+  font-weight: 400;
+}
+.leavelist .leavaItem .leavatime .ltimeL {
+  color: #383838;
+  font-size: 26rpx;
+  font-weight: 400;
+}
+.leavelist .leavaItem .leavatime .ltimeL image {
+  width: 48rpx;
+  height: 48rpx;
+}
+.leavelist .leavaItem .leavatime .ltimeR {
+  color: #383838;
+  font-size: 30rpx;
+  font-weight: 400;
+}
+
